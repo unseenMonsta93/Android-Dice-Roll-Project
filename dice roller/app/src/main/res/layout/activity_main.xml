@@ -6,12 +6,25 @@
     android:orientation="vertical"
     android:layout_gravity="center_vertical"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    tools:context=".MainActivity">
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/dice_image_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/empty_dice"/>
+
+    <ImageView
+        android:id="@+id/dice_image_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/empty_dice"/>
+
 
     <TextView
         android:id="@+id/text_view_number"
         android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
         android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -25,5 +38,6 @@
         android:layout_height="wrap_content"
         android:text="Roll"
         android:layout_gravity="center" />
+        android
 
 </LinearLayout>
